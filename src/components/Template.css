@@ -1,0 +1,63 @@
+div{
+    text-align:center;
+}
+
+.title{
+    font-size:60px;
+    text-align:center;
+    font-weight: normal;
+    color: #254688;
+    margin-top: -200px;
+    font-family: 'Noto Sans CJK KR Black', Arial, Helvetica, sans-serif;
+}
+.total_img{
+    width: 70%;
+    height: auto;
+}
+.small_title{
+    font-size:50px;
+    text-align:center;
+    font-weight: normal;
+    color: #3A404C;
+    font-family: '나눔스퀘어 Bold', Arial, Helvetica, sans-serif;
+}
+
+.round_img1{
+    margin: 5rem;
+    width: 10%;
+    height: auto;
+    filter: drop-shadow(-15px 30px 23px #000);
+
+}
+.round_img2{
+    margin: 5rem;
+    width: 10%;
+    height: auto;
+    margin-bottom: 5rem;
+    filter: drop-shadow(-15px 30px 23px #000);
+}
+.round_img3{
+    width: 10%;
+    height: auto;
+    margin: 5rem;
+    filter: drop-shadow(-15px 30px 23px #000);
+}
+.time{
+    font-size:40px;
+    font-weight: normal;
+    color: #3A404C;
+    font-family: 'Noto Sans CJK KR Medium', Arial, Helvetica, sans-serif;
+}
+.btn{
+    margin-top: 2rem;
+    width: 42rem;
+    height: auto;
+    font-size:10rem;
+    color: #FFFFFF;
+    background-color: #FD7E14;
+    margin-bottom: 40rem;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    border: solid 0px;
+    font-family: '에스코어 드림 4 Regular', Arial, Helvetica, sans-serif;
+}
