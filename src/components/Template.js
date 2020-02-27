@@ -12,7 +12,7 @@ class Template extends Component {
         return (
             <div>
             <div className="logo">
-            <img className="logo_img"src={logo} alt='logo' />
+            <img className="logo_img" src={logo} alt='logo' />
         </div>
       
         <div className="title">
