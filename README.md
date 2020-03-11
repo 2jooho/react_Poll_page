@@ -1,68 +1,51 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+﻿<img src="./readme_img/react.png" width="300px" height="160px" alt="react"></img><br/>
 
-## Available Scripts
+# react js와 node js를 이용한 설문조사 웹페이지 
 
-In the project directory, you can run:
+추천 제품을 얻기 위한 제품 추천 설문조사 페이지를 제작하여 선택에 따른 제품 점수를 부여, 제품 중 점수가 높은 3가지를 추천
 
-### `yarn start`
+***
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 개발환경 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* react js
 
-### `yarn test`
+* node js
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***
 
-### `yarn build`
+# 기능 소개
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. 메인 페이지   
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<img src="./readme_img/main.png" width="600px" height="400px" alt="메인"><img><br/>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. 설문 선택 페이지   
 
-### `yarn eject`
+<img src="./readme_img/poll1.png" width="600px" height="400px" alt="poll"><img><br/>
+<img src="./readme_img/poll2.png" width="600px" height="400px" alt="poll"><img><br/>
+<img src="./readme_img/poll3.png" width="600px" height="400px" alt="poll"><img><br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. 최종 추천 페이지(작업중)   
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ <img src="./readme_img/final.png" width="600px" height="400px" alt="final"><img><br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+***
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# 코드 소개 
 
-## Learn More
+* Mainpage.js 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+첫 메인 화면이며, Template라는  components를 통해 나타냄
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Poll.js 
 
-### Code Splitting
+설문 부분으로 원하는 취향 선택 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* Poll_page_2.js
 
-### Analyzing the Bundle Size
+상단은 poll_template.js로 표현하고 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* True_button.js   
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+O/X 페이지를 제작 
